@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+@media screen and (max-width: 768px) {
+  header {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.608)),
+      url(../images/banner.jpg);
+    background-size: cover;
+  }
+  /* Chỉnh sủa nav */
+  .nav3 {
+    display: none;
+  }
+  .navbar {
+    display: block;
+  }
+  .navbar a {
+    text-decoration: none;
+    padding-left: 20px;
+  }
+  .navbar b {
+    padding-top: 4px;
+    padding-left: 5px;
+  }
+  .all-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5%;
+  }
+  /* chỉnh sửa phần thông tin nghề nghiệp cho phù hợp */
+  .experience,
+  .Education,
+  .Action,
+  .interest,
+  .Language,
+  .Skill {
+    margin: 0 20px 10px 50px;
+  }
+  .line-col {
+    border-left: 0;
+    border-top: 1px solid #d6c08d;
+    padding-top: 20px;
+  }
+  /* Xây dựng phần Project */
+  .project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  .tablet {
+    display: flex;
+    margin-top: 20px;
+    margin-left: -88px;
+  }
+}

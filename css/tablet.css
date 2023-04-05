@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  header {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.608)),
+      url(../images/banner.jpg);
+    background-size: cover;
+  }
+  /* Chỉnh sửa phần nav  */
+  .nav3 {
+    display: none;
+  }
+  .navbar a {
+    padding-bottom: 10px;
+    text-decoration: none;
+    padding-left: 20px;
+  }
+  .navbar b {
+    padding-top: 4px;
+    padding-left: 5px;
+  }
+  .all-info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 5%;
+  }
+  /* Kinh Nghiệm */
+  .experience {
+    margin: 0 20px 10px 50px;
+  }
+  /* Học Vấn */
+  .Education {
+    margin: 0 30px 10px 30px;
+  }
+  /* Hoạt động */
+  .Action {
+    margin: 40px 20px 10px 50px;
+  }
+  /* Sở thích */
+  .interest {
+    margin: 40px 30px 10px 30px;
+  }
+  /* Ngôn Ngữ */
+  .Language {
+    margin: 40px 20px 10px 50px;
+  }
+  /* Kỹ năng */
+  .Skill {
+    margin: 40px 30px 10px 30px;
+  }
+  /* Phần Chứng chỉ - Giải thưởng */
+  /* Thiết lập ảnh và text đi kèm */
+  /* Chia hàng và cột */
+  .cer-awa {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 30px;
+  }
+  /* thay đổi kích cỡ của ảnh để phù hợp với kích thước thiết bị */
+  .img-cc {
+    width: 100%;
+    margin-right: 10px;
+    box-shadow: 0 10px 20px 0 rgba(235, 225, 225, 0.692);
+  }
+  .cer-awa-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /* Xây dựng phần Project */
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    column-gap: 20px;
+  }
+  .tablet {
+    display: flex;
+    margin-top: 20px;
+    margin-left: -88px;
+  }
+}
